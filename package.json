@@ -1,0 +1,36 @@
+{
+  "name": "opencode-artifacts",
+  "version": "0.1.0",
+  "description": "Token-efficient artifact CRUD tools for OpenCode.",
+  "author": "Karl Robeck Alferez",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlrobeck/opencode-artifacts.git"
+  },
+  "exports": {
+    ".": "./index.ts",
+    "./server": "./index.ts"
+  },
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "1.18.18",
+    "yaml": "2.8.1"
+  },
+  "engines": {
+    "opencode": ">=1.18.0 <2"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  }
+}
