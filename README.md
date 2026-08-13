@@ -48,8 +48,7 @@ Artifacts are stored recursively under `.opencode/artifacts/` at the active work
       {
         "directory": "docs/artifacts"
       }
-    ],
-    "@nick-vi/opencode-type-inject"
+    ]
   ]
 }
 ```
